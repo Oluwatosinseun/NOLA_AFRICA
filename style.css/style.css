@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+   background: #f5f5f5;
+   align-items: center;
+   justify-content: space-between;
+   /*  */
+   width: 1330px;
+   left: 0px;
+   top: 0px;
+
+}
+
+.navbar h2{
+    width: 53px;
+    height: 51px;
+    font-family: initial;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #1f8882;
+    text-align: center;
+    
+}
+
+.logowrap .logo{
+    display: flex;
+}
+.navbar ul{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+ul li{
+    list-style: none;
+    justify-content: space-between;
+}
+
+ul a{
+    height: 10rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: white;
+    background: #FF6680;
+}
+
+.container{
+    position: relative;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.all{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1rem;
+    margin: 25px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.acc{
+    width: 80%;
+    text-align: center;
+    background: #FF6680
+
+}
+
+
+.box h3{
+    font-size: 10px;
+}
+
+.box-container .box{
+    text-align: center;
+}
+
+.box h1{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 216%;
+}
+
+.box .calender{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 216%;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.mid {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.btn{
+    box-sizing: border-box;
+    width: 135px;
+    height: 35.30px;
+    border: 1px solid #E4E8F0;
+    box-shadow: 0px 2px 2px rgba(242, 242, 242, 0.9), 0px 2px 0px #F2F2F2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #E4E8F0;
+}
+
+ 
+.cou{
+    text-align: center;
+    margin-top: 5%;
+    /* background: #F9F9F9; */
+
+}
+
+.get {
+padding-left: 80%;
+background: #FF6680;
+border-radius: 3px;
+padding-bottom: 1%;
+}
+
+
+.grid{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1rem;
+    margin: 25px;
+    background: #F9F9F9;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+
+}
+
+
+.micro{
+margin-top: 5%;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.feature {
+    text-align: center;
+    /* background: #F5F5F5; */
+    margin-top: 5%;
+}
+    
+.discuss{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    /* margin: 10px; */
+    justify-content: space-between;
+}
+
+.meeting{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    /* gap: 1rem; */
+    /* margin: 25px; */
+    background: white;
+    justify-content: space-between;
+    
+}
+
+.gat{
+    border-radius: 3px;
+    padding-bottom: 1%;
+    width: 50%;
+    background: #FF6680;
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.net{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.icon{
+    /* padding-left: 10px; */
+    /* width: 20px; */
+    /* padding-left: 2%; */
+     /* margin: 45%; */
+    margin-bottom: 4rem;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+}
+
+.down{
+    /* background: black; */
+    height: 35%;
+    background: black;
+    padding: 25px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+}
+
+.black h4{
+    color: #FF6680;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 35rem;
+    margin-top: 2rem;
+}
